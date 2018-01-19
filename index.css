@@ -1,0 +1,177 @@
+* {
+	margin: 0
+	padding: 0;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+/*nav bar links*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #FFFFFF;
+
+}
+
+/*displays nav links in horizontal row*/
+li {
+	display: inline;
+	padding: 20px;
+}
+
+/*changes nav link background color*/
+li a:hover {
+    background-color: #dddddd;
+}
+
+/*hides the modal*/
+.hide{
+	display: none;
+}
+
+/*creates a box for the modal*/
+#box-1{
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.8);
+}
+
+/*advertisement text inside the modal*/
+.advert{
+	padding: 20px;
+	text-align: center;
+}
+
+/*button to close the modal*/
+#btn{
+	float: right;
+	margin: 10px;
+	padding: 5px;
+
+}
+
+/*text formatting inside the advertisement*/
+#text{
+
+}
+
+/*urban style title text*/
+.smalltitle{
+	color: grey;
+
+}
+
+/*details text*/
+.boxtext{
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 20px;
+}
+
+/*learn more button*/
+.learn{
+	background-color: #FFFFFF;
+	padding: 20px;
+	/*display: inline-block;*/
+	text-align: center;
+	/*vertical-align: middle;*/
+	font-size: 24px;
+	width: 30%;
+	margin-left: 30px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+
+/*background image*/
+html{
+	background: url('volvo-v40.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/* unvisited link */
+a:link {
+    color: #1c1c27;
+}
+
+/* visited link */
+a:visited {
+    color: #1c1c27;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1c1c27;
+}
+
+/* selected link */
+a:active {
+    color: #1c1c27;
+}
+
+/*Responsive Media Queries*/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  
+}
